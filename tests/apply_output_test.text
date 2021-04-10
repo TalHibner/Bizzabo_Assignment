@@ -1,0 +1,198 @@
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+random_pet.this: Creating...
+random_pet.this: Creation complete after 0s [id=singular-longhorn]
+data.aws_iam_policy_document.logs: Reading...
+aws_route53_zone.this: Creating...
+module.vpc.aws_eip.nat[0]: Creating...
+module.vpc.aws_iam_role.vpc_flow_log_cloudwatch[0]: Creating...
+module.vpc.aws_iam_policy.vpc_flow_log_cloudwatch[0]: Creating...
+module.vpc.aws_eip.nat[1]: Creating...
+module.vpc.aws_vpc.this[0]: Creating...
+module.vpc.aws_eip.nat[2]: Creating...
+data.aws_iam_policy_document.logs: Read complete after 0s [id=2026044322]
+module.acm.aws_acm_certificate.this[0]: Creating...
+aws_s3_bucket.logs: Creating...
+module.vpc.aws_eip.nat[2]: Creation complete after 2s [id=eipalloc-044ae35bca48260ae]
+module.vpc.aws_eip.nat[1]: Creation complete after 2s [id=eipalloc-0b2816e322b2d6664]
+module.vpc.aws_eip.nat[0]: Creation complete after 2s [id=eipalloc-0f7d6fdb1354589b4]
+module.vpc.aws_iam_policy.vpc_flow_log_cloudwatch[0]: Creation complete after 3s [id=arn:aws:iam::384519549636:policy/vpc-flow-log-to-cloudwatch-20210410182824487600000002]
+module.vpc.aws_iam_role.vpc_flow_log_cloudwatch[0]: Creation complete after 3s [id=vpc-flow-log-role-20210410182824487600000003]
+module.vpc.aws_iam_role_policy_attachment.vpc_flow_log_cloudwatch[0]: Creating...
+module.vpc.aws_iam_role_policy_attachment.vpc_flow_log_cloudwatch[0]: Creation complete after 1s [id=vpc-flow-log-role-20210410182824487600000003-20210410182827791700000005]
+aws_route53_zone.this: Still creating... [10s elapsed]
+module.vpc.aws_vpc.this[0]: Still creating... [10s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [10s elapsed]
+aws_s3_bucket.logs: Still creating... [10s elapsed]
+aws_s3_bucket.logs: Creation complete after 12s [id=elb-logs-singular-longhorn]
+aws_route53_zone.this: Still creating... [20s elapsed]
+module.vpc.aws_vpc.this[0]: Still creating... [20s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [20s elapsed]
+module.vpc.aws_vpc.this[0]: Creation complete after 22s [id=vpc-0e8caa71449897b39]
+module.vpc.aws_route_table.public[0]: Creating...
+module.vpc.aws_default_security_group.this[0]: Creating...
+module.vpc.aws_default_route_table.default[0]: Creating...
+module.vpc.aws_internet_gateway.this[0]: Creating...
+module.vpc.aws_cloudwatch_log_group.flow_log[0]: Creating...
+module.vpc.aws_route_table.private[1]: Creating...
+module.vpc.aws_subnet.public[2]: Creating...
+module.vpc.aws_subnet.private[1]: Creating...
+module.vpc.aws_cloudwatch_log_group.flow_log[0]: Creation complete after 2s [id=/aws/vpc-flow-log/vpc-0e8caa71449897b39]
+module.vpc.aws_subnet.private[0]: Creating...
+module.vpc.aws_default_route_table.default[0]: Creation complete after 2s [id=rtb-0253c5b5366525c5c]
+module.vpc.aws_subnet.public[1]: Creating...
+module.vpc.aws_route_table.private[1]: Creation complete after 2s [id=rtb-00dc7d730f7086cfa]
+module.vpc.aws_subnet.public[0]: Creating...
+module.vpc.aws_route_table.public[0]: Creation complete after 2s [id=rtb-02c3f9f9c08e36627]
+data.aws_security_group.default: Reading...
+module.vpc.aws_subnet.private[1]: Creation complete after 2s [id=subnet-0c2b538e22c2adf50]
+module.vpc.aws_route_table.private[0]: Creating...
+data.aws_security_group.default: Read complete after 1s [id=sg-065bd6b332433aa82]
+module.vpc.aws_route_table.private[2]: Creating...
+module.vpc.aws_internet_gateway.this[0]: Creation complete after 3s [id=igw-042c5f73d6175224c]
+module.vpc.aws_egress_only_internet_gateway.this[0]: Creating...
+module.vpc.aws_default_security_group.this[0]: Creation complete after 4s [id=sg-065bd6b332433aa82]
+module.vpc.aws_subnet.private[2]: Creating...
+module.vpc.aws_subnet.private[0]: Creation complete after 2s [id=subnet-0d0094c45a8a433f0]
+module.security_group_http_https.aws_security_group.this_name_prefix[0]: Creating...
+module.vpc.aws_route_table.private[0]: Creation complete after 3s [id=rtb-01999e1c6121f146c]
+module.vpc.aws_route.public_internet_gateway_ipv6[0]: Creating...
+module.vpc.aws_egress_only_internet_gateway.this[0]: Creation complete after 2s [id=eigw-0f5bb321b1a515d6e]
+module.vpc.aws_route.public_internet_gateway[0]: Creating...
+module.vpc.aws_route_table.private[2]: Creation complete after 2s [id=rtb-0e988292fb2564810]
+module.vpc.aws_flow_log.this[0]: Creating...
+module.vpc.aws_subnet.private[2]: Creation complete after 3s [id=subnet-0ff4882130f991dcc]
+module.vpc.aws_route.private_ipv6_egress[0]: Creating...
+module.vpc.aws_route.public_internet_gateway_ipv6[0]: Creation complete after 2s [id=r-rtb-02c3f9f9c08e366272750132062]
+module.vpc.aws_flow_log.this[0]: Creation complete after 2s [id=fl-0c8b1f550f6be9542]
+module.vpc.aws_route.private_ipv6_egress[1]: Creating...
+module.vpc.aws_route.private_ipv6_egress[2]: Creating...
+module.vpc.aws_route.public_internet_gateway[0]: Creation complete after 2s [id=r-rtb-02c3f9f9c08e366271080289494]
+module.vpc.aws_route_table_association.private[1]: Creating...
+module.vpc.aws_route_table_association.private[1]: Creation complete after 1s [id=rtbassoc-07f7d5e114667d931]
+module.vpc.aws_route_table_association.private[0]: Creating...
+module.vpc.aws_route_table_association.private[0]: Creation complete after 0s [id=rtbassoc-0a671a8f39087b5a2]
+module.vpc.aws_route_table_association.private[2]: Creating...
+aws_route53_zone.this: Still creating... [30s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [30s elapsed]
+module.vpc.aws_route.private_ipv6_egress[0]: Creation complete after 2s [id=r-rtb-01999e1c6121f146c2750132062]
+module.vpc.aws_route.private_ipv6_egress[2]: Creation complete after 2s [id=r-rtb-0e988292fb25648102750132062]
+module.security_group_http_https.aws_security_group.this_name_prefix[0]: Creation complete after 5s [id=sg-0415dda800c5e757d]
+module.security_group_http_https.aws_security_group_rule.ingress_with_cidr_blocks[1]: Creating...
+module.security_group_http_https.aws_security_group_rule.egress_rules[0]: Creating...
+module.security_group_http_https.aws_security_group_rule.ingress_with_cidr_blocks[0]: Creating...
+module.vpc.aws_route.private_ipv6_egress[1]: Creation complete after 2s [id=r-rtb-00dc7d730f7086cfa2750132062]
+module.security_group_http_https.aws_security_group_rule.egress_with_cidr_blocks[0]: Creating...
+module.vpc.aws_route_table_association.private[2]: Creation complete after 1s [id=rtbassoc-0dcb343535498a964]
+module.security_group_http_https.aws_security_group_rule.ingress_rules[0]: Creating...
+module.vpc.aws_subnet.public[2]: Still creating... [10s elapsed]
+module.security_group_http_https.aws_security_group_rule.ingress_with_cidr_blocks[1]: Creation complete after 2s [id=sgrule-482287089]
+aws_route53_zone.this: Creation complete after 34s [id=Z08893383SPD4ZKBRUMZD]
+module.vpc.aws_subnet.public[1]: Still creating... [10s elapsed]
+module.vpc.aws_subnet.public[0]: Still creating... [10s elapsed]
+module.security_group_http_https.aws_security_group_rule.ingress_with_cidr_blocks[0]: Creation complete after 4s [id=sgrule-3364012648]
+module.vpc.aws_subnet.public[2]: Creation complete after 14s [id=subnet-01a1b8d01f4694425]
+module.security_group_http_https.aws_security_group_rule.egress_rules[0]: Creation complete after 6s [id=sgrule-1756209677]
+module.vpc.aws_subnet.public[1]: Creation complete after 14s [id=subnet-0a5b110efa42d9186]
+module.vpc.aws_subnet.public[0]: Creation complete after 14s [id=subnet-04f710543db50b764]
+module.vpc.aws_route_table_association.public[0]: Creating...
+module.vpc.aws_route_table_association.public[1]: Creating...
+module.vpc.aws_nat_gateway.this[2]: Creating...
+module.vpc.aws_nat_gateway.this[0]: Creating...
+module.vpc.aws_nat_gateway.this[1]: Creating...
+module.vpc.aws_route_table_association.public[2]: Creating...
+module.elb.module.elb.aws_elb.this[0]: Creating...
+module.vpc.aws_route_table_association.public[2]: Creation complete after 1s [id=rtbassoc-0c6e421feb6a0cb44]
+module.vpc.aws_route_table_association.public[1]: Creation complete after 1s [id=rtbassoc-0baa9aaa0bf14728e]
+module.vpc.aws_route_table_association.public[0]: Creation complete after 1s [id=rtbassoc-00fc755c3861a1423]
+module.security_group_http_https.aws_security_group_rule.egress_with_cidr_blocks[0]: Creation complete after 8s [id=sgrule-2063676851]
+module.acm.aws_acm_certificate.this[0]: Still creating... [40s elapsed]
+module.security_group_http_https.aws_security_group_rule.ingress_rules[0]: Still creating... [10s elapsed]
+module.security_group_http_https.aws_security_group_rule.ingress_rules[0]: Creation complete after 11s [id=sgrule-4159595707]
+module.vpc.aws_nat_gateway.this[0]: Still creating... [10s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still creating... [10s elapsed]
+module.vpc.aws_nat_gateway.this[1]: Still creating... [10s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [51s elapsed]
+module.vpc.aws_nat_gateway.this[0]: Still creating... [20s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still creating... [20s elapsed]
+module.vpc.aws_nat_gateway.this[1]: Still creating... [20s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [1m1s elapsed]
+module.vpc.aws_nat_gateway.this[0]: Still creating... [30s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still creating... [30s elapsed]
+module.vpc.aws_nat_gateway.this[1]: Still creating... [30s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [1m11s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still creating... [40s elapsed]
+module.vpc.aws_nat_gateway.this[0]: Still creating... [40s elapsed]
+module.vpc.aws_nat_gateway.this[1]: Still creating... [40s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [1m21s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still creating... [50s elapsed]
+module.vpc.aws_nat_gateway.this[1]: Still creating... [50s elapsed]
+module.vpc.aws_nat_gateway.this[0]: Still creating... [50s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [1m31s elapsed]
+module.vpc.aws_nat_gateway.this[0]: Still creating... [1m0s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still creating... [1m0s elapsed]
+module.vpc.aws_nat_gateway.this[1]: Still creating... [1m0s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [1m41s elapsed]
+module.vpc.aws_nat_gateway.this[1]: Still creating... [1m10s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still creating... [1m10s elapsed]
+module.vpc.aws_nat_gateway.this[0]: Still creating... [1m10s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [1m51s elapsed]
+module.vpc.aws_nat_gateway.this[0]: Still creating... [1m20s elapsed]
+module.vpc.aws_nat_gateway.this[1]: Still creating... [1m20s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still creating... [1m20s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [2m1s elapsed]
+module.vpc.aws_nat_gateway.this[0]: Creation complete after 1m23s [id=nat-0fcc8bd7bbc1249ee]
+module.vpc.aws_nat_gateway.this[1]: Still creating... [1m30s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still creating... [1m30s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [2m11s elapsed]
+module.vpc.aws_nat_gateway.this[1]: Creation complete after 1m34s [id=nat-035c7926b7b9c34ac]
+module.vpc.aws_nat_gateway.this[2]: Still creating... [1m40s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [2m21s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still creating... [1m50s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [2m31s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still creating... [2m0s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [2m41s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still creating... [2m10s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [2m51s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Creation complete after 2m17s [id=nat-0abc85bca7d269ccd]
+module.vpc.aws_route.private_nat_gateway[0]: Creating...
+module.vpc.aws_route.private_nat_gateway[2]: Creating...
+module.vpc.aws_route.private_nat_gateway[1]: Creating...
+module.vpc.aws_route.private_nat_gateway[0]: Creation complete after 2s [id=r-rtb-01999e1c6121f146c1080289494]
+module.vpc.aws_route.private_nat_gateway[1]: Creation complete after 2s [id=r-rtb-00dc7d730f7086cfa1080289494]
+module.vpc.aws_route.private_nat_gateway[2]: Creation complete after 2s [id=r-rtb-0e988292fb25648101080289494]
+module.acm.aws_acm_certificate.this[0]: Still creating... [3m1s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [3m11s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [3m21s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [3m31s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [3m41s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [3m51s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [4m1s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [4m11s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [4m21s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [4m31s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [4m41s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [4m51s elapsed]
+module.acm.aws_acm_certificate.this[0]: Still creating... [5m1s elapsed]
+
+Error: asynchronous ACM service domain validation assignment not complete, need to retry: {
+  DomainName: "bizzaboassignment.com",
+  ValidationDomain: "bizzaboassignment.com",
+  ValidationMethod: "DNS",
+  ValidationStatus: "PENDING_VALIDATION"
+}
+
+  on .terraform\modules\acm\main.tf line 11, in resource "aws_acm_certificate" "this":
+  11: resource "aws_acm_certificate" "this" {
+
+
+
+Error: Error creating ELB: ValidationError: Secure Listeners need to specify a SSLCertificateId
+        status code: 400, request id: 028330da-decf-4687-8828-e0fcf976d193
+
+  on .terraform\modules\elb\modules\elb\main.tf line 1, in resource "aws_elb" "this":
+   1: resource "aws_elb" "this" {

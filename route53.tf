@@ -32,8 +32,8 @@ module "records" {
       name = "elb"
       type = "A"
       alias = {
-        name    = module.elb.dns_name
-        zone_id = module.elb.zone_id
+        name    = module.elb.this_elb_dns_name
+        zone_id = module.elb.this_elb_zone_id
         evaluate_target_health = true
       }
     }

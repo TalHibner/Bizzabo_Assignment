@@ -31,8 +31,6 @@ module "vpc" {
   ###############
   //Route tables for each subnet
   manage_default_route_table = true
-  default_route_table_tags   = { DefaultRouteTable = true }
-
 
   ################
   # Publiс/Private Route Tables
@@ -55,11 +53,6 @@ module "vpc" {
   enable_nat_gateway = true
   single_nat_gateway = false
   one_nat_gateway_per_az = false
-
-  #######################
-  # Default Network ACLs
-  #######################
-
 
 
   ###################
@@ -129,6 +122,7 @@ module "vpc" {
   default_route_table_tags = {
     Name = "bizzabo-dev-default-route-table"
     Region = "us-east-1"
+    DefaultRouteTable = true
   }
 
   public_route_table_tags = {

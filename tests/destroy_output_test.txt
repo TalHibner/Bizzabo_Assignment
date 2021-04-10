@@ -1,0 +1,1175 @@
+random_pet.this: Refreshing state... [id=singular-longhorn]
+module.vpc.aws_vpc.this[0]: Refreshing state... [id=vpc-0e8caa71449897b39]
+module.acm.aws_acm_certificate.this[0]: Refreshing state... [id=arn:aws:acm:us-east-1:384519549636:certificate/0b50561d-4cd0-470e-a585-e5d6e1b5d76d]
+module.vpc.aws_eip.nat[1]: Refreshing state... [id=eipalloc-0b2816e322b2d6664]
+module.vpc.aws_eip.nat[0]: Refreshing state... [id=eipalloc-0f7d6fdb1354589b4]
+module.vpc.aws_eip.nat[2]: Refreshing state... [id=eipalloc-044ae35bca48260ae]
+aws_route53_zone.this: Refreshing state... [id=Z08893383SPD4ZKBRUMZD]
+module.vpc.aws_iam_policy.vpc_flow_log_cloudwatch[0]: Refreshing state... [id=arn:aws:iam::384519549636:policy/vpc-flow-log-to-cloudwatch-20210410182824487600000002]
+module.vpc.aws_iam_role.vpc_flow_log_cloudwatch[0]: Refreshing state... [id=vpc-flow-log-role-20210410182824487600000003]
+aws_s3_bucket.logs: Refreshing state... [id=elb-logs-singular-longhorn]
+module.vpc.aws_iam_role_policy_attachment.vpc_flow_log_cloudwatch[0]: Refreshing state... [id=vpc-flow-log-role-20210410182824487600000003-20210410182827791700000005]
+module.vpc.aws_default_route_table.default[0]: Refreshing state... [id=rtb-0253c5b5366525c5c]
+module.vpc.aws_default_security_group.this[0]: Refreshing state... [id=sg-065bd6b332433aa82]
+module.security_group_http_https.aws_security_group.this_name_prefix[0]: Refreshing state... [id=sg-0415dda800c5e757d]
+module.vpc.aws_route_table.private[1]: Refreshing state... [id=rtb-00dc7d730f7086cfa]
+module.vpc.aws_route_table.private[0]: Refreshing state... [id=rtb-01999e1c6121f146c]
+module.vpc.aws_route_table.private[2]: Refreshing state... [id=rtb-0e988292fb2564810]
+module.vpc.aws_internet_gateway.this[0]: Refreshing state... [id=igw-042c5f73d6175224c]
+module.vpc.aws_subnet.public[0]: Refreshing state... [id=subnet-04f710543db50b764]
+module.vpc.aws_subnet.public[2]: Refreshing state... [id=subnet-01a1b8d01f4694425]
+module.vpc.aws_subnet.public[1]: Refreshing state... [id=subnet-0a5b110efa42d9186]
+module.vpc.aws_cloudwatch_log_group.flow_log[0]: Refreshing state... [id=/aws/vpc-flow-log/vpc-0e8caa71449897b39]
+module.vpc.aws_route_table.public[0]: Refreshing state... [id=rtb-02c3f9f9c08e36627]
+module.vpc.aws_egress_only_internet_gateway.this[0]: Refreshing state... [id=eigw-0f5bb321b1a515d6e]
+module.vpc.aws_subnet.private[0]: Refreshing state... [id=subnet-0d0094c45a8a433f0]
+module.vpc.aws_subnet.private[1]: Refreshing state... [id=subnet-0c2b538e22c2adf50]
+module.vpc.aws_subnet.private[2]: Refreshing state... [id=subnet-0ff4882130f991dcc]
+module.vpc.aws_nat_gateway.this[1]: Refreshing state... [id=nat-035c7926b7b9c34ac]
+module.vpc.aws_nat_gateway.this[0]: Refreshing state... [id=nat-0fcc8bd7bbc1249ee]
+module.vpc.aws_nat_gateway.this[2]: Refreshing state... [id=nat-0abc85bca7d269ccd]
+module.security_group_http_https.aws_security_group_rule.egress_rules[0]: Refreshing state... [id=sgrule-1756209677]
+module.security_group_http_https.aws_security_group_rule.ingress_rules[0]: Refreshing state... [id=sgrule-4159595707]
+module.security_group_http_https.aws_security_group_rule.egress_with_cidr_blocks[0]: Refreshing state... [id=sgrule-2063676851]
+module.security_group_http_https.aws_security_group_rule.ingress_with_cidr_blocks[0]: Refreshing state... [id=sgrule-3364012648]
+module.security_group_http_https.aws_security_group_rule.ingress_with_cidr_blocks[1]: Refreshing state... [id=sgrule-482287089]
+module.vpc.aws_route.public_internet_gateway_ipv6[0]: Refreshing state... [id=r-rtb-02c3f9f9c08e366272750132062]
+module.vpc.aws_route.public_internet_gateway[0]: Refreshing state... [id=r-rtb-02c3f9f9c08e366271080289494]
+module.vpc.aws_route_table_association.public[0]: Refreshing state... [id=rtbassoc-00fc755c3861a1423]
+module.vpc.aws_route_table_association.public[1]: Refreshing state... [id=rtbassoc-0baa9aaa0bf14728e]
+module.vpc.aws_route_table_association.public[2]: Refreshing state... [id=rtbassoc-0c6e421feb6a0cb44]
+module.vpc.aws_route.private_ipv6_egress[0]: Refreshing state... [id=r-rtb-01999e1c6121f146c2750132062]
+module.vpc.aws_route.private_ipv6_egress[2]: Refreshing state... [id=r-rtb-0e988292fb25648102750132062]
+module.vpc.aws_route.private_ipv6_egress[1]: Refreshing state... [id=r-rtb-00dc7d730f7086cfa2750132062]
+module.vpc.aws_route_table_association.private[0]: Refreshing state... [id=rtbassoc-0a671a8f39087b5a2]
+module.vpc.aws_route_table_association.private[1]: Refreshing state... [id=rtbassoc-07f7d5e114667d931]
+module.vpc.aws_route_table_association.private[2]: Refreshing state... [id=rtbassoc-0dcb343535498a964]
+module.vpc.aws_flow_log.this[0]: Refreshing state... [id=fl-0c8b1f550f6be9542]
+module.vpc.aws_route.private_nat_gateway[2]: Refreshing state... [id=r-rtb-0e988292fb25648101080289494]
+module.vpc.aws_route.private_nat_gateway[1]: Refreshing state... [id=r-rtb-00dc7d730f7086cfa1080289494]
+module.vpc.aws_route.private_nat_gateway[0]: Refreshing state... [id=r-rtb-01999e1c6121f146c1080289494]
+
+Error: asynchronous ACM service domain validation assignment not complete, need to retry: {
+  DomainName: "bizzaboassignment.com",
+  ValidationDomain: "bizzaboassignment.com",
+  ValidationMethod: "DNS",
+  ValidationStatus: "PENDING_VALIDATION"
+}
+
+
+
+C:\Users\TalHibner\IdeaProjects\Bizzabo_Assignment>terraform apply
+random_pet.this: Refreshing state... [id=singular-longhorn]
+aws_route53_zone.this: Refreshing state... [id=Z08893383SPD4ZKBRUMZD]
+module.acm.aws_acm_certificate.this[0]: Refreshing state... [id=arn:aws:acm:us-east-1:384519549636:certificate/0b50561d-4cd0-470e-a585-e5d6e1b5d76d]
+module.vpc.aws_eip.nat[0]: Refreshing state... [id=eipalloc-0f7d6fdb1354589b4]
+module.vpc.aws_eip.nat[2]: Refreshing state... [id=eipalloc-044ae35bca48260ae]
+module.vpc.aws_eip.nat[1]: Refreshing state... [id=eipalloc-0b2816e322b2d6664]
+module.vpc.aws_vpc.this[0]: Refreshing state... [id=vpc-0e8caa71449897b39]
+module.vpc.aws_iam_policy.vpc_flow_log_cloudwatch[0]: Refreshing state... [id=arn:aws:iam::384519549636:policy/vpc-flow-log-to-cloudwatch-20210410182824487600000002]
+module.vpc.aws_iam_role.vpc_flow_log_cloudwatch[0]: Refreshing state... [id=vpc-flow-log-role-20210410182824487600000003]
+aws_s3_bucket.logs: Refreshing state... [id=elb-logs-singular-longhorn]
+module.vpc.aws_iam_role_policy_attachment.vpc_flow_log_cloudwatch[0]: Refreshing state... [id=vpc-flow-log-role-20210410182824487600000003-20210410182827791700000005]
+module.vpc.aws_default_route_table.default[0]: Refreshing state... [id=rtb-0253c5b5366525c5c]
+module.vpc.aws_default_security_group.this[0]: Refreshing state... [id=sg-065bd6b332433aa82]
+module.vpc.aws_route_table.public[0]: Refreshing state... [id=rtb-02c3f9f9c08e36627]
+module.vpc.aws_subnet.private[2]: Refreshing state... [id=subnet-0ff4882130f991dcc]
+module.vpc.aws_subnet.private[0]: Refreshing state... [id=subnet-0d0094c45a8a433f0]
+module.vpc.aws_subnet.private[1]: Refreshing state... [id=subnet-0c2b538e22c2adf50]
+module.vpc.aws_subnet.public[0]: Refreshing state... [id=subnet-04f710543db50b764]
+module.vpc.aws_subnet.public[2]: Refreshing state... [id=subnet-01a1b8d01f4694425]
+module.vpc.aws_subnet.public[1]: Refreshing state... [id=subnet-0a5b110efa42d9186]
+module.vpc.aws_internet_gateway.this[0]: Refreshing state... [id=igw-042c5f73d6175224c]
+module.vpc.aws_egress_only_internet_gateway.this[0]: Refreshing state... [id=eigw-0f5bb321b1a515d6e]
+module.vpc.aws_route_table.private[1]: Refreshing state... [id=rtb-00dc7d730f7086cfa]
+module.vpc.aws_route_table.private[0]: Refreshing state... [id=rtb-01999e1c6121f146c]
+module.vpc.aws_route_table.private[2]: Refreshing state... [id=rtb-0e988292fb2564810]
+module.vpc.aws_cloudwatch_log_group.flow_log[0]: Refreshing state... [id=/aws/vpc-flow-log/vpc-0e8caa71449897b39]
+module.security_group_http_https.aws_security_group.this_name_prefix[0]: Refreshing state... [id=sg-0415dda800c5e757d]
+module.vpc.aws_route_table_association.private[0]: Refreshing state... [id=rtbassoc-0a671a8f39087b5a2]
+module.vpc.aws_route_table_association.private[2]: Refreshing state... [id=rtbassoc-0dcb343535498a964]
+module.vpc.aws_route_table_association.private[1]: Refreshing state... [id=rtbassoc-07f7d5e114667d931]
+module.vpc.aws_route.private_ipv6_egress[0]: Refreshing state... [id=r-rtb-01999e1c6121f146c2750132062]
+module.vpc.aws_route.private_ipv6_egress[1]: Refreshing state... [id=r-rtb-00dc7d730f7086cfa2750132062]
+module.vpc.aws_route.private_ipv6_egress[2]: Refreshing state... [id=r-rtb-0e988292fb25648102750132062]
+module.vpc.aws_route_table_association.public[2]: Refreshing state... [id=rtbassoc-0c6e421feb6a0cb44]
+module.vpc.aws_route_table_association.public[0]: Refreshing state... [id=rtbassoc-00fc755c3861a1423]
+module.vpc.aws_route_table_association.public[1]: Refreshing state... [id=rtbassoc-0baa9aaa0bf14728e]
+module.vpc.aws_route.public_internet_gateway_ipv6[0]: Refreshing state... [id=r-rtb-02c3f9f9c08e366272750132062]
+module.vpc.aws_nat_gateway.this[2]: Refreshing state... [id=nat-0abc85bca7d269ccd]
+module.vpc.aws_nat_gateway.this[0]: Refreshing state... [id=nat-0fcc8bd7bbc1249ee]
+module.vpc.aws_nat_gateway.this[1]: Refreshing state... [id=nat-035c7926b7b9c34ac]
+module.vpc.aws_route.public_internet_gateway[0]: Refreshing state... [id=r-rtb-02c3f9f9c08e366271080289494]
+module.security_group_http_https.aws_security_group_rule.ingress_with_cidr_blocks[1]: Refreshing state... [id=sgrule-482287089]
+module.security_group_http_https.aws_security_group_rule.ingress_with_cidr_blocks[0]: Refreshing state... [id=sgrule-3364012648]
+module.security_group_http_https.aws_security_group_rule.egress_with_cidr_blocks[0]: Refreshing state... [id=sgrule-2063676851]
+module.security_group_http_https.aws_security_group_rule.ingress_rules[0]: Refreshing state... [id=sgrule-4159595707]
+module.security_group_http_https.aws_security_group_rule.egress_rules[0]: Refreshing state... [id=sgrule-1756209677]
+module.vpc.aws_flow_log.this[0]: Refreshing state... [id=fl-0c8b1f550f6be9542]
+module.vpc.aws_route.private_nat_gateway[2]: Refreshing state... [id=r-rtb-0e988292fb25648101080289494]
+module.vpc.aws_route.private_nat_gateway[0]: Refreshing state... [id=r-rtb-01999e1c6121f146c1080289494]
+module.vpc.aws_route.private_nat_gateway[1]: Refreshing state... [id=r-rtb-00dc7d730f7086cfa1080289494]
+
+Error: asynchronous ACM service domain validation assignment not complete, need to retry: {
+  DomainName: "bizzaboassignment.com",
+  ValidationDomain: "bizzaboassignment.com",
+  ValidationMethod: "DNS",
+  ValidationStatus: "PENDING_VALIDATION"
+}
+
+
+
+C:\Users\TalHibner\IdeaProjects\Bizzabo_Assignment>terraform destroy
+
+Error: Module not installed
+
+  on route53.tf line 4:
+   4: module "zones" {
+
+This module is not yet installed. Run "terraform init" to install all modules
+required by this configuration.
+
+
+Error: Module not installed
+
+  on route53.tf line 24:
+  24: module "records" {
+
+This module is not yet installed. Run "terraform init" to install all modules
+required by this configuration.
+
+
+Error: Module not installed
+
+  on route53.tf line 45:
+  45: module "disabled_records" {
+
+This module is not yet installed. Run "terraform init" to install all modules
+required by this configuration.
+
+
+C:\Users\TalHibner\IdeaProjects\Bizzabo_Assignment>terraform destroy
+
+An execution plan has been generated and is shown below.
+Resource actions are indicated with the following symbols:
+  - destroy
+
+Terraform will perform the following actions:
+
+  # aws_route53_zone.this will be destroyed
+  - resource "aws_route53_zone" "this" {
+      - comment       = "Managed by Terraform" -> null
+      - force_destroy = true -> null
+      - id            = "Z08893383SPD4ZKBRUMZD" -> null
+      - name          = "bizzaboassignment.com" -> null
+      - name_servers  = [
+          - "ns-1105.awsdns-10.org",
+          - "ns-1764.awsdns-28.co.uk",
+          - "ns-34.awsdns-04.com",
+          - "ns-672.awsdns-20.net",
+        ] -> null
+      - zone_id       = "Z08893383SPD4ZKBRUMZD" -> null
+    }
+
+  # aws_s3_bucket.logs will be destroyed
+  - resource "aws_s3_bucket" "logs" {
+      - acl                         = "private" -> null
+      - arn                         = "arn:aws:s3:::elb-logs-singular-longhorn" -> null
+      - bucket                      = "elb-logs-singular-longhorn" -> null
+      - bucket_domain_name          = "elb-logs-singular-longhorn.s3.amazonaws.com" -> null
+      - bucket_regional_domain_name = "elb-logs-singular-longhorn.s3.amazonaws.com" -> null
+      - force_destroy               = true -> null
+      - hosted_zone_id              = "Z3AQBSTGFYJSTF" -> null
+      - id                          = "elb-logs-singular-longhorn" -> null
+      - policy                      = jsonencode(
+            {
+              - Statement = [
+                  - {
+                      - Action    = "s3:PutObject"
+                      - Effect    = "Allow"
+                      - Principal = {
+                          - AWS = "arn:aws:iam::127311923021:root"
+                        }
+                      - Resource  = "arn:aws:s3:::elb-logs-singular-longhorn/*"
+                      - Sid       = ""
+                    },
+                ]
+              - Version   = "2012-10-17"
+            }
+        ) -> null
+      - region                      = "us-east-1" -> null
+      - request_payer               = "BucketOwner" -> null
+
+      - versioning {
+          - enabled    = false -> null
+          - mfa_delete = false -> null
+        }
+    }
+
+  # random_pet.this will be destroyed
+  - resource "random_pet" "this" {
+      - id        = "singular-longhorn" -> null
+      - length    = 2 -> null
+      - separator = "-" -> null
+    }
+
+  # module.acm.aws_acm_certificate.this[0] will be destroyed
+  - resource "aws_acm_certificate" "this" {
+      - arn                       = "arn:aws:acm:us-east-1:384519549636:certificate/0b50561d-4cd0-470e-a585-e5d6e1b5d76d" -> null
+      - domain_name               = "bizzaboassignment.com" -> null
+      - domain_validation_options = [
+          - {
+              - domain_name           = "*.bizzaboassignment.comm"
+              - resource_record_name  = ""
+              - resource_record_type  = ""
+              - resource_record_value = ""
+            },
+          - {
+              - domain_name           = "bizzaboassignment.com"
+              - resource_record_name  = ""
+              - resource_record_type  = ""
+              - resource_record_value = ""
+            },
+        ] -> null
+      - id                        = "arn:aws:acm:us-east-1:384519549636:certificate/0b50561d-4cd0-470e-a585-e5d6e1b5d76d" -> null
+      - subject_alternative_names = [
+          - "*.bizzaboassignment.comm",
+        ] -> null
+      - validation_method         = "DNS" -> null
+
+      - options {
+          - certificate_transparency_logging_preference = "ENABLED" -> null
+        }
+    }
+
+  # module.security_group_http_https.aws_security_group.this_name_prefix[0] will be destroyed
+  - resource "aws_security_group" "this_name_prefix" {
+      - arn                    = "arn:aws:ec2:us-east-1:384519549636:security-group/sg-0415dda800c5e757d" -> null
+      - description            = "Security group for user-service with custom ports open within VPC" -> null
+      - egress                 = [] -> null
+      - id                     = "sg-0415dda800c5e757d" -> null
+      - ingress                = [] -> null
+      - name                   = "user-service-20210410182850308600000006" -> null
+      - name_prefix            = "user-service-" -> null
+      - owner_id               = "384519549636" -> null
+      - revoke_rules_on_delete = false -> null
+      - tags                   = {
+          - "Name" = "user-service"
+        } -> null
+      - vpc_id                 = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.security_group_http_https.aws_security_group_rule.egress_rules[0] will be destroyed
+  - resource "aws_security_group_rule" "egress_rules" {
+      - cidr_blocks       = [
+          - "10.0.0.0/16",
+        ] -> null
+      - description       = "All protocols" -> null
+      - from_port         = -1 -> null
+      - id                = "sgrule-1756209677" -> null
+      - ipv6_cidr_blocks  = [
+          - "::/0",
+        ] -> null
+      - prefix_list_ids   = [] -> null
+      - protocol          = "-1" -> null
+      - security_group_id = "sg-0415dda800c5e757d" -> null
+      - self              = false -> null
+      - to_port           = -1 -> null
+      - type              = "egress" -> null
+    }
+
+  # module.security_group_http_https.aws_security_group_rule.egress_with_cidr_blocks[0] will be destroyed
+  - resource "aws_security_group_rule" "egress_with_cidr_blocks" {
+      - cidr_blocks       = [
+          - "0.0.0.0/0",
+        ] -> null
+      - description       = "Egress Rule" -> null
+      - from_port         = 0 -> null
+      - id                = "sgrule-2063676851" -> null
+      - prefix_list_ids   = [] -> null
+      - protocol          = "-1" -> null
+      - security_group_id = "sg-0415dda800c5e757d" -> null
+      - self              = false -> null
+      - to_port           = 0 -> null
+      - type              = "egress" -> null
+    }
+
+  # module.security_group_http_https.aws_security_group_rule.ingress_rules[0] will be destroyed
+  - resource "aws_security_group_rule" "ingress_rules" {
+      - cidr_blocks       = [
+          - "10.0.0.0/16",
+        ] -> null
+      - description       = "HTTPS" -> null
+      - from_port         = 443 -> null
+      - id                = "sgrule-4159595707" -> null
+      - ipv6_cidr_blocks  = [] -> null
+      - prefix_list_ids   = [] -> null
+      - protocol          = "tcp" -> null
+      - security_group_id = "sg-0415dda800c5e757d" -> null
+      - self              = false -> null
+      - to_port           = 443 -> null
+      - type              = "ingress" -> null
+    }
+
+  # module.security_group_http_https.aws_security_group_rule.ingress_with_cidr_blocks[0] will be destroyed
+  - resource "aws_security_group_rule" "ingress_with_cidr_blocks" {
+      - cidr_blocks       = [
+          - "0.0.0.0/0",
+        ] -> null
+      - description       = "Ingress Rule" -> null
+      - from_port         = 443 -> null
+      - id                = "sgrule-3364012648" -> null
+      - prefix_list_ids   = [] -> null
+      - protocol          = "tcp" -> null
+      - security_group_id = "sg-0415dda800c5e757d" -> null
+      - self              = false -> null
+      - to_port           = 443 -> null
+      - type              = "ingress" -> null
+    }
+
+  # module.security_group_http_https.aws_security_group_rule.ingress_with_cidr_blocks[1] will be destroyed
+  - resource "aws_security_group_rule" "ingress_with_cidr_blocks" {
+      - cidr_blocks       = [
+          - "0.0.0.0/0",
+        ] -> null
+      - description       = "Ingress Rule" -> null
+      - from_port         = 80 -> null
+      - id                = "sgrule-482287089" -> null
+      - prefix_list_ids   = [] -> null
+      - protocol          = "tcp" -> null
+      - security_group_id = "sg-0415dda800c5e757d" -> null
+      - self              = false -> null
+      - to_port           = 80 -> null
+      - type              = "ingress" -> null
+    }
+
+  # module.vpc.aws_cloudwatch_log_group.flow_log[0] will be destroyed
+  - resource "aws_cloudwatch_log_group" "flow_log" {
+      - arn               = "arn:aws:logs:us-east-1:384519549636:log-group:/aws/vpc-flow-log/vpc-0e8caa71449897b39" -> null
+      - id                = "/aws/vpc-flow-log/vpc-0e8caa71449897b39" -> null
+      - name              = "/aws/vpc-flow-log/vpc-0e8caa71449897b39" -> null
+      - retention_in_days = 0 -> null
+      - tags              = {
+          - "Environment" = "dev"
+          - "Owner"       = "talh"
+          - "Terraform"   = "true"
+        } -> null
+    }
+
+  # module.vpc.aws_default_route_table.default[0] will be destroyed
+  - resource "aws_default_route_table" "default" {
+      - arn                    = "arn:aws:ec2:us-east-1:384519549636:route-table/rtb-0253c5b5366525c5c" -> null
+      - default_route_table_id = "rtb-0253c5b5366525c5c" -> null
+      - id                     = "rtb-0253c5b5366525c5c" -> null
+      - owner_id               = "384519549636" -> null
+      - route                  = [] -> null
+      - tags                   = {
+          - "DefaultRouteTable" = "true"
+          - "Environment"       = "dev"
+          - "Name"              = "bizzabo-dev-default-route-table"
+          - "Owner"             = "talh"
+          - "Region"            = "us-east-1"
+          - "Terraform"         = "true"
+        } -> null
+      - vpc_id                 = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_default_security_group.this[0] will be destroyed
+  - resource "aws_default_security_group" "this" {
+      - arn                    = "arn:aws:ec2:us-east-1:384519549636:security-group/sg-065bd6b332433aa82" -> null
+      - description            = "default VPC security group" -> null
+      - egress                 = [] -> null
+      - id                     = "sg-065bd6b332433aa82" -> null
+      - ingress                = [] -> null
+      - name                   = "default" -> null
+      - owner_id               = "384519549636" -> null
+      - revoke_rules_on_delete = false -> null
+      - tags                   = {
+          - "Environment" = "dev"
+          - "Name"        = "default"
+          - "Owner"       = "talh"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc_id                 = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_egress_only_internet_gateway.this[0] will be destroyed
+  - resource "aws_egress_only_internet_gateway" "this" {
+      - id     = "eigw-0f5bb321b1a515d6e" -> null
+      - tags   = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-igw"
+          - "Owner"       = "talh"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc_id = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_eip.nat[0] will be destroyed
+  - resource "aws_eip" "nat" {
+      - domain               = "vpc" -> null
+      - id                   = "eipalloc-0f7d6fdb1354589b4" -> null
+      - network_border_group = "us-east-1" -> null
+      - public_dns           = "ec2-3-220-241-81.compute-1.amazonaws.com" -> null
+      - public_ip            = "3.220.241.81" -> null
+      - public_ipv4_pool     = "amazon" -> null
+      - tags                 = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-nat-eip"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc                  = true -> null
+    }
+
+  # module.vpc.aws_eip.nat[1] will be destroyed
+  - resource "aws_eip" "nat" {
+      - domain               = "vpc" -> null
+      - id                   = "eipalloc-0b2816e322b2d6664" -> null
+      - network_border_group = "us-east-1" -> null
+      - public_dns           = "ec2-3-90-99-43.compute-1.amazonaws.com" -> null
+      - public_ip            = "3.90.99.43" -> null
+      - public_ipv4_pool     = "amazon" -> null
+      - tags                 = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-nat-eip"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc                  = true -> null
+    }
+
+  # module.vpc.aws_eip.nat[2] will be destroyed
+  - resource "aws_eip" "nat" {
+      - domain               = "vpc" -> null
+      - id                   = "eipalloc-044ae35bca48260ae" -> null
+      - network_border_group = "us-east-1" -> null
+      - public_dns           = "ec2-52-6-141-125.compute-1.amazonaws.com" -> null
+      - public_ip            = "52.6.141.125" -> null
+      - public_ipv4_pool     = "amazon" -> null
+      - tags                 = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-nat-eip"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc                  = true -> null
+    }
+
+  # module.vpc.aws_flow_log.this[0] will be destroyed
+  - resource "aws_flow_log" "this" {
+      - arn                      = "arn:aws:ec2:us-east-1:384519549636:vpc-flow-log/fl-0c8b1f550f6be9542" -> null
+      - iam_role_arn             = "arn:aws:iam::384519549636:role/vpc-flow-log-role-20210410182824487600000003" -> null
+      - id                       = "fl-0c8b1f550f6be9542" -> null
+      - log_destination          = "arn:aws:logs:us-east-1:384519549636:log-group:/aws/vpc-flow-log/vpc-0e8caa71449897b39" -> null
+      - log_destination_type     = "cloud-watch-logs" -> null
+      - log_format               = "${version} ${account-id} ${interface-id} ${srcaddr} ${dstaddr} ${srcport} ${dstport} ${protocol} ${packets} ${bytes} ${start} ${end} ${action} ${log-status}" -> null
+      - log_group_name           = "/aws/vpc-flow-log/vpc-0e8caa71449897b39" -> null
+      - max_aggregation_interval = 60 -> null
+      - tags                     = {
+          - "Environment" = "dev"
+          - "Owner"       = "talh"
+          - "Terraform"   = "true"
+        } -> null
+      - traffic_type             = "ALL" -> null
+      - vpc_id                   = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_iam_policy.vpc_flow_log_cloudwatch[0] will be destroyed
+  - resource "aws_iam_policy" "vpc_flow_log_cloudwatch" {
+      - arn         = "arn:aws:iam::384519549636:policy/vpc-flow-log-to-cloudwatch-20210410182824487600000002" -> null
+      - id          = "arn:aws:iam::384519549636:policy/vpc-flow-log-to-cloudwatch-20210410182824487600000002" -> null
+      - name        = "vpc-flow-log-to-cloudwatch-20210410182824487600000002" -> null
+      - name_prefix = "vpc-flow-log-to-cloudwatch-" -> null
+      - path        = "/" -> null
+      - policy      = jsonencode(
+            {
+              - Statement = [
+                  - {
+                      - Action   = [
+                          - "logs:PutLogEvents",
+                          - "logs:DescribeLogStreams",
+                          - "logs:DescribeLogGroups",
+                          - "logs:CreateLogStream",
+                        ]
+                      - Effect   = "Allow"
+                      - Resource = "*"
+                      - Sid      = "AWSVPCFlowLogsPushToCloudWatch"
+                    },
+                ]
+              - Version   = "2012-10-17"
+            }
+        ) -> null
+      - policy_id   = "ANPAVTBZGWLCPNFIXAYJK" -> null
+    }
+
+  # module.vpc.aws_iam_role.vpc_flow_log_cloudwatch[0] will be destroyed
+  - resource "aws_iam_role" "vpc_flow_log_cloudwatch" {
+      - arn                   = "arn:aws:iam::384519549636:role/vpc-flow-log-role-20210410182824487600000003" -> null
+      - assume_role_policy    = jsonencode(
+            {
+              - Statement = [
+                  - {
+                      - Action    = "sts:AssumeRole"
+                      - Effect    = "Allow"
+                      - Principal = {
+                          - Service = "vpc-flow-logs.amazonaws.com"
+                        }
+                      - Sid       = ""
+                    },
+                ]
+              - Version   = "2012-10-17"
+            }
+        ) -> null
+      - create_date           = "2021-04-10T18:28:25Z" -> null
+      - force_detach_policies = false -> null
+      - id                    = "vpc-flow-log-role-20210410182824487600000003" -> null
+      - managed_policy_arns   = [] -> null
+      - max_session_duration  = 3600 -> null
+      - name                  = "vpc-flow-log-role-20210410182824487600000003" -> null
+      - name_prefix           = "vpc-flow-log-role-" -> null
+      - path                  = "/" -> null
+      - tags                  = {
+          - "Environment" = "dev"
+          - "Owner"       = "talh"
+          - "Terraform"   = "true"
+        } -> null
+      - unique_id             = "AROAVTBZGWLCJPC3T24HZ" -> null
+
+      - inline_policy {}
+    }
+
+  # module.vpc.aws_iam_role_policy_attachment.vpc_flow_log_cloudwatch[0] will be destroyed
+  - resource "aws_iam_role_policy_attachment" "vpc_flow_log_cloudwatch" {
+      - id         = "vpc-flow-log-role-20210410182824487600000003-20210410182827791700000005" -> null
+      - policy_arn = "arn:aws:iam::384519549636:policy/vpc-flow-log-to-cloudwatch-20210410182824487600000002" -> null
+      - role       = "vpc-flow-log-role-20210410182824487600000003" -> null
+    }
+
+  # module.vpc.aws_internet_gateway.this[0] will be destroyed
+  - resource "aws_internet_gateway" "this" {
+      - arn      = "arn:aws:ec2:us-east-1:384519549636:internet-gateway/igw-042c5f73d6175224c" -> null
+      - id       = "igw-042c5f73d6175224c" -> null
+      - owner_id = "384519549636" -> null
+      - tags     = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-igw"
+          - "Owner"       = "talh"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc_id   = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_nat_gateway.this[0] will be destroyed
+  - resource "aws_nat_gateway" "this" {
+      - allocation_id        = "eipalloc-0f7d6fdb1354589b4" -> null
+      - id                   = "nat-0fcc8bd7bbc1249ee" -> null
+      - network_interface_id = "eni-086e39a9ad41bbc16" -> null
+      - private_ip           = "10.0.101.195" -> null
+      - public_ip            = "3.220.241.81" -> null
+      - subnet_id            = "subnet-04f710543db50b764" -> null
+      - tags                 = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-nat-gateway"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+    }
+
+  # module.vpc.aws_nat_gateway.this[1] will be destroyed
+  - resource "aws_nat_gateway" "this" {
+      - allocation_id        = "eipalloc-0b2816e322b2d6664" -> null
+      - id                   = "nat-035c7926b7b9c34ac" -> null
+      - network_interface_id = "eni-014298bae36cb7e37" -> null
+      - private_ip           = "10.0.102.188" -> null
+      - public_ip            = "3.90.99.43" -> null
+      - subnet_id            = "subnet-0a5b110efa42d9186" -> null
+      - tags                 = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-nat-gateway"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+    }
+
+  # module.vpc.aws_nat_gateway.this[2] will be destroyed
+  - resource "aws_nat_gateway" "this" {
+      - allocation_id        = "eipalloc-044ae35bca48260ae" -> null
+      - id                   = "nat-0abc85bca7d269ccd" -> null
+      - network_interface_id = "eni-067ddb60e773ba4ff" -> null
+      - private_ip           = "10.0.103.20" -> null
+      - public_ip            = "52.6.141.125" -> null
+      - subnet_id            = "subnet-01a1b8d01f4694425" -> null
+      - tags                 = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-nat-gateway"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+    }
+
+  # module.vpc.aws_route.private_ipv6_egress[0] will be destroyed
+  - resource "aws_route" "private_ipv6_egress" {
+      - destination_ipv6_cidr_block = "::/0" -> null
+      - egress_only_gateway_id      = "eigw-0f5bb321b1a515d6e" -> null
+      - id                          = "r-rtb-01999e1c6121f146c2750132062" -> null
+      - origin                      = "CreateRoute" -> null
+      - route_table_id              = "rtb-01999e1c6121f146c" -> null
+      - state                       = "active" -> null
+    }
+
+  # module.vpc.aws_route.private_ipv6_egress[1] will be destroyed
+  - resource "aws_route" "private_ipv6_egress" {
+      - destination_ipv6_cidr_block = "::/0" -> null
+      - egress_only_gateway_id      = "eigw-0f5bb321b1a515d6e" -> null
+      - id                          = "r-rtb-00dc7d730f7086cfa2750132062" -> null
+      - origin                      = "CreateRoute" -> null
+      - route_table_id              = "rtb-00dc7d730f7086cfa" -> null
+      - state                       = "active" -> null
+    }
+
+  # module.vpc.aws_route.private_ipv6_egress[2] will be destroyed
+  - resource "aws_route" "private_ipv6_egress" {
+      - destination_ipv6_cidr_block = "::/0" -> null
+      - egress_only_gateway_id      = "eigw-0f5bb321b1a515d6e" -> null
+      - id                          = "r-rtb-0e988292fb25648102750132062" -> null
+      - origin                      = "CreateRoute" -> null
+      - route_table_id              = "rtb-0e988292fb2564810" -> null
+      - state                       = "active" -> null
+    }
+
+  # module.vpc.aws_route.private_nat_gateway[0] will be destroyed
+  - resource "aws_route" "private_nat_gateway" {
+      - destination_cidr_block = "0.0.0.0/0" -> null
+      - id                     = "r-rtb-01999e1c6121f146c1080289494" -> null
+      - nat_gateway_id         = "nat-0fcc8bd7bbc1249ee" -> null
+      - origin                 = "CreateRoute" -> null
+      - route_table_id         = "rtb-01999e1c6121f146c" -> null
+      - state                  = "active" -> null
+
+      - timeouts {
+          - create = "5m" -> null
+        }
+    }
+
+  # module.vpc.aws_route.private_nat_gateway[1] will be destroyed
+  - resource "aws_route" "private_nat_gateway" {
+      - destination_cidr_block = "0.0.0.0/0" -> null
+      - id                     = "r-rtb-00dc7d730f7086cfa1080289494" -> null
+      - nat_gateway_id         = "nat-035c7926b7b9c34ac" -> null
+      - origin                 = "CreateRoute" -> null
+      - route_table_id         = "rtb-00dc7d730f7086cfa" -> null
+      - state                  = "active" -> null
+
+      - timeouts {
+          - create = "5m" -> null
+        }
+    }
+
+  # module.vpc.aws_route.private_nat_gateway[2] will be destroyed
+  - resource "aws_route" "private_nat_gateway" {
+      - destination_cidr_block = "0.0.0.0/0" -> null
+      - id                     = "r-rtb-0e988292fb25648101080289494" -> null
+      - nat_gateway_id         = "nat-0abc85bca7d269ccd" -> null
+      - origin                 = "CreateRoute" -> null
+      - route_table_id         = "rtb-0e988292fb2564810" -> null
+      - state                  = "active" -> null
+
+      - timeouts {
+          - create = "5m" -> null
+        }
+    }
+
+  # module.vpc.aws_route.public_internet_gateway[0] will be destroyed
+  - resource "aws_route" "public_internet_gateway" {
+      - destination_cidr_block = "0.0.0.0/0" -> null
+      - gateway_id             = "igw-042c5f73d6175224c" -> null
+      - id                     = "r-rtb-02c3f9f9c08e366271080289494" -> null
+      - origin                 = "CreateRoute" -> null
+      - route_table_id         = "rtb-02c3f9f9c08e36627" -> null
+      - state                  = "active" -> null
+
+      - timeouts {
+          - create = "5m" -> null
+        }
+    }
+
+  # module.vpc.aws_route.public_internet_gateway_ipv6[0] will be destroyed
+  - resource "aws_route" "public_internet_gateway_ipv6" {
+      - destination_ipv6_cidr_block = "::/0" -> null
+      - gateway_id                  = "igw-042c5f73d6175224c" -> null
+      - id                          = "r-rtb-02c3f9f9c08e366272750132062" -> null
+      - origin                      = "CreateRoute" -> null
+      - route_table_id              = "rtb-02c3f9f9c08e36627" -> null
+      - state                       = "active" -> null
+    }
+
+  # module.vpc.aws_route_table.private[0] will be destroyed
+  - resource "aws_route_table" "private" {
+      - arn              = "arn:aws:ec2:us-east-1:384519549636:route-table/rtb-01999e1c6121f146c" -> null
+      - id               = "rtb-01999e1c6121f146c" -> null
+      - owner_id         = "384519549636" -> null
+      - propagating_vgws = [] -> null
+      - route            = [] -> null
+      - tags             = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-private-route-table"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc_id           = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_route_table.private[1] will be destroyed
+  - resource "aws_route_table" "private" {
+      - arn              = "arn:aws:ec2:us-east-1:384519549636:route-table/rtb-00dc7d730f7086cfa" -> null
+      - id               = "rtb-00dc7d730f7086cfa" -> null
+      - owner_id         = "384519549636" -> null
+      - propagating_vgws = [] -> null
+      - route            = [] -> null
+      - tags             = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-private-route-table"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc_id           = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_route_table.private[2] will be destroyed
+  - resource "aws_route_table" "private" {
+      - arn              = "arn:aws:ec2:us-east-1:384519549636:route-table/rtb-0e988292fb2564810" -> null
+      - id               = "rtb-0e988292fb2564810" -> null
+      - owner_id         = "384519549636" -> null
+      - propagating_vgws = [] -> null
+      - route            = [] -> null
+      - tags             = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-private-route-table"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc_id           = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_route_table.public[0] will be destroyed
+  - resource "aws_route_table" "public" {
+      - arn              = "arn:aws:ec2:us-east-1:384519549636:route-table/rtb-02c3f9f9c08e36627" -> null
+      - id               = "rtb-02c3f9f9c08e36627" -> null
+      - owner_id         = "384519549636" -> null
+      - propagating_vgws = [] -> null
+      - route            = [] -> null
+      - tags             = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-public-route-table"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc_id           = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_route_table_association.private[0] will be destroyed
+  - resource "aws_route_table_association" "private" {
+      - id             = "rtbassoc-0a671a8f39087b5a2" -> null
+      - route_table_id = "rtb-01999e1c6121f146c" -> null
+      - subnet_id      = "subnet-0d0094c45a8a433f0" -> null
+    }
+
+  # module.vpc.aws_route_table_association.private[1] will be destroyed
+  - resource "aws_route_table_association" "private" {
+      - id             = "rtbassoc-07f7d5e114667d931" -> null
+      - route_table_id = "rtb-00dc7d730f7086cfa" -> null
+      - subnet_id      = "subnet-0c2b538e22c2adf50" -> null
+    }
+
+  # module.vpc.aws_route_table_association.private[2] will be destroyed
+  - resource "aws_route_table_association" "private" {
+      - id             = "rtbassoc-0dcb343535498a964" -> null
+      - route_table_id = "rtb-0e988292fb2564810" -> null
+      - subnet_id      = "subnet-0ff4882130f991dcc" -> null
+    }
+
+  # module.vpc.aws_route_table_association.public[0] will be destroyed
+  - resource "aws_route_table_association" "public" {
+      - id             = "rtbassoc-00fc755c3861a1423" -> null
+      - route_table_id = "rtb-02c3f9f9c08e36627" -> null
+      - subnet_id      = "subnet-04f710543db50b764" -> null
+    }
+
+  # module.vpc.aws_route_table_association.public[1] will be destroyed
+  - resource "aws_route_table_association" "public" {
+      - id             = "rtbassoc-0baa9aaa0bf14728e" -> null
+      - route_table_id = "rtb-02c3f9f9c08e36627" -> null
+      - subnet_id      = "subnet-0a5b110efa42d9186" -> null
+    }
+
+  # module.vpc.aws_route_table_association.public[2] will be destroyed
+  - resource "aws_route_table_association" "public" {
+      - id             = "rtbassoc-0c6e421feb6a0cb44" -> null
+      - route_table_id = "rtb-02c3f9f9c08e36627" -> null
+      - subnet_id      = "subnet-01a1b8d01f4694425" -> null
+    }
+
+  # module.vpc.aws_subnet.private[0] will be destroyed
+  - resource "aws_subnet" "private" {
+      - arn                             = "arn:aws:ec2:us-east-1:384519549636:subnet/subnet-0d0094c45a8a433f0" -> null
+      - assign_ipv6_address_on_creation = false -> null
+      - availability_zone               = "us-east-1a" -> null
+      - availability_zone_id            = "use1-az4" -> null
+      - cidr_block                      = "10.0.1.0/24" -> null
+      - id                              = "subnet-0d0094c45a8a433f0" -> null
+      - map_customer_owned_ip_on_launch = false -> null
+      - map_public_ip_on_launch         = false -> null
+      - owner_id                        = "384519549636" -> null
+      - tags                            = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-private-subnet"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - tags_all                        = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-private-subnet"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc_id                          = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_subnet.private[1] will be destroyed
+  - resource "aws_subnet" "private" {
+      - arn                             = "arn:aws:ec2:us-east-1:384519549636:subnet/subnet-0c2b538e22c2adf50" -> null
+      - assign_ipv6_address_on_creation = false -> null
+      - availability_zone               = "us-east-1b" -> null
+      - availability_zone_id            = "use1-az6" -> null
+      - cidr_block                      = "10.0.2.0/24" -> null
+      - id                              = "subnet-0c2b538e22c2adf50" -> null
+      - map_customer_owned_ip_on_launch = false -> null
+      - map_public_ip_on_launch         = false -> null
+      - owner_id                        = "384519549636" -> null
+      - tags                            = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-private-subnet"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - tags_all                        = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-private-subnet"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc_id                          = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_subnet.private[2] will be destroyed
+  - resource "aws_subnet" "private" {
+      - arn                             = "arn:aws:ec2:us-east-1:384519549636:subnet/subnet-0ff4882130f991dcc" -> null
+      - assign_ipv6_address_on_creation = false -> null
+      - availability_zone               = "us-east-1c" -> null
+      - availability_zone_id            = "use1-az1" -> null
+      - cidr_block                      = "10.0.3.0/24" -> null
+      - id                              = "subnet-0ff4882130f991dcc" -> null
+      - map_customer_owned_ip_on_launch = false -> null
+      - map_public_ip_on_launch         = false -> null
+      - owner_id                        = "384519549636" -> null
+      - tags                            = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-private-subnet"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - tags_all                        = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-private-subnet"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc_id                          = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_subnet.public[0] will be destroyed
+  - resource "aws_subnet" "public" {
+      - arn                             = "arn:aws:ec2:us-east-1:384519549636:subnet/subnet-04f710543db50b764" -> null
+      - assign_ipv6_address_on_creation = false -> null
+      - availability_zone               = "us-east-1a" -> null
+      - availability_zone_id            = "use1-az4" -> null
+      - cidr_block                      = "10.0.101.0/24" -> null
+      - id                              = "subnet-04f710543db50b764" -> null
+      - map_customer_owned_ip_on_launch = false -> null
+      - map_public_ip_on_launch         = true -> null
+      - owner_id                        = "384519549636" -> null
+      - tags                            = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-public-subnet"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - tags_all                        = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-public-subnet"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc_id                          = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_subnet.public[1] will be destroyed
+  - resource "aws_subnet" "public" {
+      - arn                             = "arn:aws:ec2:us-east-1:384519549636:subnet/subnet-0a5b110efa42d9186" -> null
+      - assign_ipv6_address_on_creation = false -> null
+      - availability_zone               = "us-east-1b" -> null
+      - availability_zone_id            = "use1-az6" -> null
+      - cidr_block                      = "10.0.102.0/24" -> null
+      - id                              = "subnet-0a5b110efa42d9186" -> null
+      - map_customer_owned_ip_on_launch = false -> null
+      - map_public_ip_on_launch         = true -> null
+      - owner_id                        = "384519549636" -> null
+      - tags                            = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-public-subnet"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - tags_all                        = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-public-subnet"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc_id                          = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_subnet.public[2] will be destroyed
+  - resource "aws_subnet" "public" {
+      - arn                             = "arn:aws:ec2:us-east-1:384519549636:subnet/subnet-01a1b8d01f4694425" -> null
+      - assign_ipv6_address_on_creation = false -> null
+      - availability_zone               = "us-east-1c" -> null
+      - availability_zone_id            = "use1-az1" -> null
+      - cidr_block                      = "10.0.103.0/24" -> null
+      - id                              = "subnet-01a1b8d01f4694425" -> null
+      - map_customer_owned_ip_on_launch = false -> null
+      - map_public_ip_on_launch         = true -> null
+      - owner_id                        = "384519549636" -> null
+      - tags                            = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-public-subnet"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - tags_all                        = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-public-subnet"
+          - "Owner"       = "talh"
+          - "Region"      = "us-east-1"
+          - "Terraform"   = "true"
+        } -> null
+      - vpc_id                          = "vpc-0e8caa71449897b39" -> null
+    }
+
+  # module.vpc.aws_vpc.this[0] will be destroyed
+  - resource "aws_vpc" "this" {
+      - arn                              = "arn:aws:ec2:us-east-1:384519549636:vpc/vpc-0e8caa71449897b39" -> null
+      - assign_generated_ipv6_cidr_block = true -> null
+      - cidr_block                       = "10.0.0.0/16" -> null
+      - default_network_acl_id           = "acl-0986f0add5a07b2d8" -> null
+      - default_route_table_id           = "rtb-0253c5b5366525c5c" -> null
+      - default_security_group_id        = "sg-065bd6b332433aa82" -> null
+      - dhcp_options_id                  = "dopt-10082b6a" -> null
+      - enable_classiclink               = true -> null
+      - enable_classiclink_dns_support   = true -> null
+      - enable_dns_hostnames             = true -> null
+      - enable_dns_support               = true -> null
+      - id                               = "vpc-0e8caa71449897b39" -> null
+      - instance_tenancy                 = "default" -> null
+      - ipv6_association_id              = "vpc-cidr-assoc-0f92fb7118fa4d5f9" -> null
+      - ipv6_cidr_block                  = "2600:1f18:bbb:8100::/56" -> null
+      - main_route_table_id              = "rtb-0253c5b5366525c5c" -> null
+      - owner_id                         = "384519549636" -> null
+      - tags                             = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-vpc"
+          - "Owner"       = "talh"
+          - "Terraform"   = "true"
+        } -> null
+      - tags_all                         = {
+          - "Environment" = "dev"
+          - "Name"        = "bizzabo-dev-vpc"
+          - "Owner"       = "talh"
+          - "Terraform"   = "true"
+        } -> null
+    }
+
+Plan: 0 to add, 0 to change, 50 to destroy.
+
+Changes to Outputs:
+  - azs             = [
+      - "us-east-1a",
+      - "us-east-1b",
+      - "us-east-1c",
+    ] -> null
+  - nat_public_ips  = [
+      - "3.220.241.81",
+      - "3.90.99.43",
+      - "52.6.141.125",
+    ] -> null
+  - private_subnets = [
+      - "subnet-0d0094c45a8a433f0",
+      - "subnet-0c2b538e22c2adf50",
+      - "subnet-0ff4882130f991dcc",
+    ] -> null
+  - public_subnets  = [
+      - "subnet-04f710543db50b764",
+      - "subnet-0a5b110efa42d9186",
+      - "subnet-01a1b8d01f4694425",
+    ] -> null
+  - vpc_cidr_block  = "10.0.0.0/16" -> null
+  - vpc_id          = "vpc-0e8caa71449897b39" -> null
+
+Do you really want to destroy all resources?
+  Terraform will destroy all your managed infrastructure, as shown above.
+  There is no undo. Only 'yes' will be accepted to confirm.
+
+  Enter a value: yes
+
+module.vpc.aws_route_table_association.public[2]: Destroying... [id=rtbassoc-0c6e421feb6a0cb44]
+module.vpc.aws_route.public_internet_gateway[0]: Destroying... [id=r-rtb-02c3f9f9c08e366271080289494]
+module.vpc.aws_route.private_ipv6_egress[1]: Destroying... [id=r-rtb-00dc7d730f7086cfa2750132062]
+module.security_group_http_https.aws_security_group_rule.ingress_rules[0]: Destroying... [id=sgrule-4159595707]
+module.vpc.aws_route.private_nat_gateway[1]: Destroying... [id=r-rtb-00dc7d730f7086cfa1080289494]
+module.vpc.aws_default_route_table.default[0]: Destroying... [id=rtb-0253c5b5366525c5c]
+module.vpc.aws_route_table_association.public[0]: Destroying... [id=rtbassoc-00fc755c3861a1423]
+module.vpc.aws_route.private_ipv6_egress[2]: Destroying... [id=r-rtb-0e988292fb25648102750132062]
+module.vpc.aws_route.private_nat_gateway[0]: Destroying... [id=r-rtb-01999e1c6121f146c1080289494]
+aws_s3_bucket.logs: Destroying... [id=elb-logs-singular-longhorn]
+module.vpc.aws_default_route_table.default[0]: Destruction complete after 0s
+module.vpc.aws_route.private_ipv6_egress[0]: Destroying... [id=r-rtb-01999e1c6121f146c2750132062]
+module.vpc.aws_route.private_ipv6_egress[2]: Destruction complete after 1s
+module.vpc.aws_flow_log.this[0]: Destroying... [id=fl-0c8b1f550f6be9542]
+module.vpc.aws_route.private_nat_gateway[1]: Destruction complete after 1s
+module.security_group_http_https.aws_security_group_rule.ingress_with_cidr_blocks[1]: Destroying... [id=sgrule-482287089]
+module.vpc.aws_route.public_internet_gateway[0]: Destruction complete after 1s
+module.vpc.aws_route_table_association.public[1]: Destroying... [id=rtbassoc-0baa9aaa0bf14728e]
+module.vpc.aws_route.private_nat_gateway[0]: Destruction complete after 1s
+aws_s3_bucket.logs: Destruction complete after 1s
+module.vpc.aws_route.private_ipv6_egress[1]: Destruction complete after 1s
+module.vpc.aws_route.private_nat_gateway[2]: Destroying... [id=r-rtb-0e988292fb25648101080289494]
+module.vpc.aws_iam_role_policy_attachment.vpc_flow_log_cloudwatch[0]: Destroying... [id=vpc-flow-log-role-20210410182824487600000003-20210410182827791700000005]
+module.vpc.aws_route_table_association.private[0]: Destroying... [id=rtbassoc-0a671a8f39087b5a2]
+module.vpc.aws_route.private_ipv6_egress[0]: Destruction complete after 1s
+module.vpc.aws_route_table_association.public[2]: Destruction complete after 1s
+module.vpc.aws_default_security_group.this[0]: Destroying... [id=sg-065bd6b332433aa82]
+module.acm.aws_acm_certificate.this[0]: Destroying... [id=arn:aws:acm:us-east-1:384519549636:certificate/0b50561d-4cd0-470e-a585-e5d6e1b5d76d]
+module.vpc.aws_default_security_group.this[0]: Destruction complete after 0s
+module.vpc.aws_route_table_association.public[0]: Destruction complete after 1s
+module.security_group_http_https.aws_security_group_rule.egress_rules[0]: Destroying... [id=sgrule-1756209677]
+module.vpc.aws_route_table_association.private[2]: Destroying... [id=rtbassoc-0dcb343535498a964]
+module.vpc.aws_flow_log.this[0]: Destruction complete after 1s
+module.vpc.aws_route.private_nat_gateway[2]: Destruction complete after 1s
+module.vpc.aws_route_table_association.private[1]: Destroying... [id=rtbassoc-07f7d5e114667d931]
+aws_route53_zone.this: Destroying... [id=Z08893383SPD4ZKBRUMZD]
+module.acm.aws_acm_certificate.this[0]: Destruction complete after 1s
+module.vpc.aws_iam_role_policy_attachment.vpc_flow_log_cloudwatch[0]: Destruction complete after 1s
+module.vpc.aws_route_table_association.public[1]: Destruction complete after 1s
+module.security_group_http_https.aws_security_group_rule.ingress_with_cidr_blocks[0]: Destroying... [id=sgrule-3364012648]
+module.security_group_http_https.aws_security_group_rule.egress_with_cidr_blocks[0]: Destroying... [id=sgrule-2063676851]
+module.vpc.aws_route.public_internet_gateway_ipv6[0]: Destroying... [id=r-rtb-02c3f9f9c08e366272750132062]
+module.vpc.aws_route_table_association.private[0]: Destruction complete after 1s
+module.security_group_http_https.aws_security_group_rule.ingress_rules[0]: Destruction complete after 2s
+module.vpc.aws_route_table_association.private[2]: Destruction complete after 1s
+random_pet.this: Destroying... [id=singular-longhorn]
+random_pet.this: Destruction complete after 0s
+module.vpc.aws_egress_only_internet_gateway.this[0]: Destroying... [id=eigw-0f5bb321b1a515d6e]
+module.vpc.aws_cloudwatch_log_group.flow_log[0]: Destroying... [id=/aws/vpc-flow-log/vpc-0e8caa71449897b39]
+module.vpc.aws_nat_gateway.this[1]: Destroying... [id=nat-035c7926b7b9c34ac]
+module.vpc.aws_route_table_association.private[1]: Destruction complete after 1s
+module.vpc.aws_nat_gateway.this[0]: Destroying... [id=nat-0fcc8bd7bbc1249ee]
+module.vpc.aws_route.public_internet_gateway_ipv6[0]: Destruction complete after 1s
+module.vpc.aws_nat_gateway.this[2]: Destroying... [id=nat-0abc85bca7d269ccd]
+module.vpc.aws_egress_only_internet_gateway.this[0]: Destruction complete after 1s
+module.vpc.aws_iam_policy.vpc_flow_log_cloudwatch[0]: Destroying... [id=arn:aws:iam::384519549636:policy/vpc-flow-log-to-cloudwatch-20210410182824487600000002]
+module.vpc.aws_cloudwatch_log_group.flow_log[0]: Destruction complete after 1s
+module.vpc.aws_iam_role.vpc_flow_log_cloudwatch[0]: Destroying... [id=vpc-flow-log-role-20210410182824487600000003]
+aws_route53_zone.this: Destruction complete after 2s
+module.vpc.aws_subnet.private[1]: Destroying... [id=subnet-0c2b538e22c2adf50]
+module.security_group_http_https.aws_security_group_rule.ingress_with_cidr_blocks[1]: Destruction complete after 3s
+module.vpc.aws_route_table.private[2]: Destroying... [id=rtb-0e988292fb2564810]
+module.vpc.aws_iam_policy.vpc_flow_log_cloudwatch[0]: Destruction complete after 1s
+module.vpc.aws_subnet.private[2]: Destroying... [id=subnet-0ff4882130f991dcc]
+module.vpc.aws_subnet.private[1]: Destruction complete after 1s
+module.vpc.aws_subnet.private[0]: Destroying... [id=subnet-0d0094c45a8a433f0]
+module.security_group_http_https.aws_security_group_rule.egress_rules[0]: Destruction complete after 5s
+module.vpc.aws_route_table.private[0]: Destroying... [id=rtb-01999e1c6121f146c]
+module.vpc.aws_iam_role.vpc_flow_log_cloudwatch[0]: Destruction complete after 3s
+module.vpc.aws_route_table.private[1]: Destroying... [id=rtb-00dc7d730f7086cfa]
+module.vpc.aws_route_table.private[2]: Destruction complete after 2s
+module.vpc.aws_route_table.public[0]: Destroying... [id=rtb-02c3f9f9c08e36627]
+module.vpc.aws_subnet.private[2]: Destruction complete after 3s
+module.vpc.aws_subnet.private[0]: Destruction complete after 2s
+module.security_group_http_https.aws_security_group_rule.ingress_with_cidr_blocks[0]: Destruction complete after 6s
+module.vpc.aws_route_table.private[0]: Destruction complete after 2s
+module.vpc.aws_route_table.private[1]: Destruction complete after 3s
+module.vpc.aws_route_table.public[0]: Destruction complete after 3s
+module.security_group_http_https.aws_security_group_rule.egress_with_cidr_blocks[0]: Destruction complete after 7s
+module.security_group_http_https.aws_security_group.this_name_prefix[0]: Destroying... [id=sg-0415dda800c5e757d]
+module.security_group_http_https.aws_security_group.this_name_prefix[0]: Destruction complete after 2s
+module.vpc.aws_nat_gateway.this[1]: Still destroying... [id=nat-035c7926b7b9c34ac, 10s elapsed]
+module.vpc.aws_nat_gateway.this[0]: Still destroying... [id=nat-0fcc8bd7bbc1249ee, 10s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still destroying... [id=nat-0abc85bca7d269ccd, 10s elapsed]
+module.vpc.aws_nat_gateway.this[1]: Still destroying... [id=nat-035c7926b7b9c34ac, 20s elapsed]
+module.vpc.aws_nat_gateway.this[0]: Still destroying... [id=nat-0fcc8bd7bbc1249ee, 20s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still destroying... [id=nat-0abc85bca7d269ccd, 20s elapsed]
+module.vpc.aws_nat_gateway.this[1]: Still destroying... [id=nat-035c7926b7b9c34ac, 30s elapsed]
+module.vpc.aws_nat_gateway.this[0]: Still destroying... [id=nat-0fcc8bd7bbc1249ee, 30s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still destroying... [id=nat-0abc85bca7d269ccd, 30s elapsed]
+module.vpc.aws_nat_gateway.this[1]: Still destroying... [id=nat-035c7926b7b9c34ac, 40s elapsed]
+module.vpc.aws_nat_gateway.this[0]: Still destroying... [id=nat-0fcc8bd7bbc1249ee, 40s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still destroying... [id=nat-0abc85bca7d269ccd, 40s elapsed]
+module.vpc.aws_nat_gateway.this[1]: Still destroying... [id=nat-035c7926b7b9c34ac, 50s elapsed]
+module.vpc.aws_nat_gateway.this[0]: Still destroying... [id=nat-0fcc8bd7bbc1249ee, 50s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Still destroying... [id=nat-0abc85bca7d269ccd, 50s elapsed]
+module.vpc.aws_nat_gateway.this[1]: Destruction complete after 55s
+module.vpc.aws_nat_gateway.this[0]: Destruction complete after 55s
+module.vpc.aws_nat_gateway.this[2]: Still destroying... [id=nat-0abc85bca7d269ccd, 1m0s elapsed]
+module.vpc.aws_nat_gateway.this[2]: Destruction complete after 1m5s
+module.vpc.aws_eip.nat[0]: Destroying... [id=eipalloc-0f7d6fdb1354589b4]
+module.vpc.aws_internet_gateway.this[0]: Destroying... [id=igw-042c5f73d6175224c]
+module.vpc.aws_eip.nat[1]: Destroying... [id=eipalloc-0b2816e322b2d6664]
+module.vpc.aws_subnet.public[1]: Destroying... [id=subnet-0a5b110efa42d9186]
+module.vpc.aws_subnet.public[0]: Destroying... [id=subnet-04f710543db50b764]
+module.vpc.aws_eip.nat[2]: Destroying... [id=eipalloc-044ae35bca48260ae]
+module.vpc.aws_subnet.public[2]: Destroying... [id=subnet-01a1b8d01f4694425]
+module.vpc.aws_subnet.public[1]: Destruction complete after 2s
+module.vpc.aws_subnet.public[0]: Destruction complete after 2s
+module.vpc.aws_subnet.public[2]: Destruction complete after 2s
+module.vpc.aws_eip.nat[0]: Destruction complete after 2s
+module.vpc.aws_eip.nat[2]: Destruction complete after 3s
+module.vpc.aws_eip.nat[1]: Destruction complete after 3s
+module.vpc.aws_internet_gateway.this[0]: Still destroying... [id=igw-042c5f73d6175224c, 10s elapsed]
+module.vpc.aws_internet_gateway.this[0]: Destruction complete after 12s
+module.vpc.aws_vpc.this[0]: Destroying... [id=vpc-0e8caa71449897b39]
+module.vpc.aws_vpc.this[0]: Destruction complete after 1s
+
+Destroy complete! Resources: 50 destroyed.
+
