@@ -13,7 +13,7 @@ As requested in the assignment, with only giving your access and secret key to y
 
 - Clone or copy the index.html file to your computer
 - Open the index.html file in your browser (you can find it in this GitHub repository)
-- Inn the top, write your access and secret key and click the "confirm" button.
+- In the top, write your access and secret key, and click the "confirm" button.
 
 ### Tests
 You can find in the current Github repository the "tests-part2" directory. 
