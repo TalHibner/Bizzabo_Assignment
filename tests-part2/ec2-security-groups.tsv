@@ -1,0 +1,3 @@
+#	GroupId	GroupName	Description	VpcId	Tag:Name
+1	sg-019f17837cc6897e9	launch-wizard-1	launch-wizard-1 created 2021-04-10T19:23:22.245+03:00	vpc-4357d13e	
+2	sg-e40daee4	default	default VPC security group	vpc-4357d13e	

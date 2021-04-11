@@ -1,0 +1,119 @@
+$ aws resourcegroupstaggingapi get-resources --region us-east-1
+
+{
+    "ResourceTagMappingList": [
+        {
+            "ResourceARN": "arn:aws:ec2:us-east-1:384519549636:egress-only-internet-gateway/eigw-0f5bb321b1a515d6e",
+            "Tags": [
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "bizzabo-dev-igw"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "talh"
+                },
+                {
+                    "Key": "Terraform",
+                    "Value": "true"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:us-east-1:384519549636:instance/i-0da6626db0b6bdb44",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "test"
+                },
+                {
+                    "Key": "region",
+                    "Value": "us-east-1"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:us-east-1:384519549636:natgateway/nat-0abc85bca7d269ccd",
+            "Tags": [
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "bizzabo-dev-nat-gateway"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "talh"
+                },
+                {
+                    "Key": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Key": "Terraform",
+                    "Value": "true"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:us-east-1:384519549636:natgateway/nat-0fcc8bd7bbc1249ee",
+            "Tags": [
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "bizzabo-dev-nat-gateway"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "talh"
+                },
+                {
+                    "Key": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Key": "Terraform",
+                    "Value": "true"
+                }
+            ]
+        },
+        {
+            "ResourceARN": "arn:aws:ec2:us-east-1:384519549636:route-table/rtb-0253c5b5366525c5c",
+            "Tags": [
+                {
+                    "Key": "DefaultRouteTable",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "dev"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "bizzabo-dev-default-route-table"
+                },
+                {
+                    "Key": "Owner",
+                    "Value": "talh"
+                },
+                {
+                    "Key": "Region",
+                    "Value": "us-east-1"
+                },
+                {
+                    "Key": "Terraform",
+                    "Value": "true"
+                }
+            ]
+        }
+    ]
+}

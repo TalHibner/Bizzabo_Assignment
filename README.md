@@ -1,21 +1,44 @@
 # Bizzabo_Assignment
 
+##Part2 - AWS API
+A single-file that shows the whole inventory of your AWS services on a single page.  
+https://github.com/devops-israel/aws-inventory  
+The AWS Inventory is using the AWS JavaScript SDK and a sprinkle of Bootstrap, this allows to show results in pretty tables from any AWS API.  
+As requested in the assignment, with only giving your access and secret key to your account(locally):
+- You get a web-ui with a list of all AWS services being used region wise
+- When clicking each region you get a list for each service in detail, like EC2, RDS etc. When you click on it you get a table with all details
+- You can also download the service table content to a tsv file!  
+
+### Tests
+You can find in the current Github repository the "tests-part2" directory. 
+when you'll open it you'll find the output of running manually using the AWS CLI 
+https://awscli.amazonaws.com/v2/documentation/api/latest/reference/resourcegroupstaggingapi/get-resources.html.  
+In addition, you'll find some print screens of the resources in the AWS Console.
+
+##Part1 - AWS Infrastructure as Code
+
 I chose to write with Terraform as an IaC engine, to
-create the below AWS components:
-● VPC with three public and private subnets (instead of 2 for HA)
-● Route tables for each subnet
-● Security Group to allow port 80 and 443 from the Internet
-● ELB - listening on ports 80 & 443
-● Public route53 hosted zone and CNAME entry for the ELB
+create the below AWS components:  
+● VPC with three public and private subnets (instead of 2 for HA)  
+● Route tables for each subnet  
+● Security Group to allow port 80 and 443 from the Internet  
+● ELB - listening on ports 80 & 443  
+● Public route53 hosted zone and CNAME entry for the ELB  
 
-*Note about CNAME:*
-AWS recommends creating an ‘Alias’ record that maps to your ELB, instead of using CNAMEs. Alias records have two advantages: first, unlike CNAMEs, you can create an Alias record for your zone apex (e.g. example.com, instead of www.example.com), and second, queries to Alias records are free of charge.
+*Note about CNAME:*  
+AWS recommends creating an ‘Alias’ record that maps to your ELB, instead of using CNAMEs. 
+Alias records have two advantages: first, unlike CNAMEs, you can create an Alias record for your zone apex (e.g. example.com, instead of www.example.com), and second, queries to Alias records are free of charge.
 
-*Note about SSL:*
+*Note about SSL:*  
 For using ELB with port 443 https, Valid SSL certificate has to be specified as ssl_certificate_id argument for secure listener. 
 Use terraform-aws-acm module to create one and later to validate.
 
-## Usage
+*Limitation:*  
+You need to have a domain name or register a new domain name for Route53 hosted zone!
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/registrar.html  
+https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/domain-register.html  
+
+### Usage
 
 To run this you need to execute:
 
@@ -29,12 +52,12 @@ Note that this example may create resources which cost money. Run `terraform des
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
-## Tests
-You can find in the current Github repository the "tests" directory. 
+### Tests
+You can find in the current Github repository the "tests-part2" directory. 
 when you'll open it you'll find the output of running "plan", "apply" and "destroy".
 In addition, you'll find some print screens of the resources being provisioned in the AWS Console.
 
-## Requirements
+### Requirements
 
 | Name | Version |
 |------|---------|
@@ -42,14 +65,14 @@ In addition, you'll find some print screens of the resources being provisioned i
 | <a name="requirement_aws"></a> [aws](#requirement\_aws) | >= 2.20 |
 | <a name="requirement_random"></a> [random](#requirement\_random) | >= 2.0 |
 
-## Providers
+### Providers
 
 | Name | Version |
 |------|---------|
 | <a name="provider_aws"></a> [aws](#provider\_aws) | >= 2.20 |
 | <a name="provider_random"></a> [random](#provider\_random) | >= 2.0 |
 
-## Modules
+### Modules
 
 | Name | Source | Version |
 |------|--------|---------|
@@ -61,7 +84,7 @@ In addition, you'll find some print screens of the resources being provisioned i
 | records | terraform-aws-modules/route53/aws//modules/records | ~> 2.0 |
 
 
-## Outputs
+### Outputs
 
 | Name | Description |
 |------|-------------|

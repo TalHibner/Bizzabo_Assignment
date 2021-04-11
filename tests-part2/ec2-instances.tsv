@@ -1,0 +1,2 @@
+#	InstanceId	InstanceType	ImageId	LaunchTime	KeyName	State.Name	Tag:Name
+1	i-0da6626db0b6bdb44	t2.micro	ami-0742b4e673072066f	Sat Apr 10 2021 19:24:06 GMT+0300 (Israel Daylight Time)	nVirginiaKeyPair	running	

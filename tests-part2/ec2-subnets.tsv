@@ -1,0 +1,7 @@
+#	SubnetId	VpcId	State	DefaultForAz	AvailabilityZone	AvailableIpAddressCount	CidrBlock	MapPublicIpOnLaunch	Tag:Name
+1	subnet-7fc77e4e	vpc-4357d13e	available	true	us-east-1e	4090	172.31.48.0/20	true	
+2	subnet-0a474247	vpc-4357d13e	available	true	us-east-1a	4091	172.31.16.0/20	true	
+3	subnet-6ef99308	vpc-4357d13e	available	true	us-east-1c	4091	172.31.0.0/20	true	
+4	subnet-61c6b13e	vpc-4357d13e	available	true	us-east-1b	4091	172.31.32.0/20	true	
+5	subnet-ae65158f	vpc-4357d13e	available	true	us-east-1d	4091	172.31.80.0/20	true	
+6	subnet-8bb69a85	vpc-4357d13e	available	true	us-east-1f	4091	172.31.64.0/20	true	
