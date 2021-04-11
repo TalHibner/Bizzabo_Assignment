@@ -9,6 +9,12 @@ As requested in the assignment, with only giving your access and secret key to y
 - When clicking each region you get a list for each service in detail, like EC2, RDS etc. When you click on it you get a table with all details
 - You can also download the service table content to a tsv file!  
 
+### Usage
+
+- Clone or copy the index.html file to your computer
+- Open the index.html file in your browser (you can find it in this GitHub repository)
+- Inn the top, write your access and secret key and click the "confirm" button.
+
 ### Tests
 You can find in the current Github repository the "tests-part2" directory. 
 when you'll open it you'll find the output of running manually using the AWS CLI 
