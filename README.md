@@ -1,6 +1,6 @@
 # Bizzabo_Assignment
 
-##Part2 - AWS API
+##  Part2 - AWS API
 A single-file that shows the whole inventory of your AWS services on a single page.  
 https://github.com/devops-israel/aws-inventory  
 The AWS Inventory is using the AWS JavaScript SDK and a sprinkle of Bootstrap, this allows to show results in pretty tables from any AWS API.  
@@ -15,7 +15,7 @@ when you'll open it you'll find the output of running manually using the AWS CLI
 https://awscli.amazonaws.com/v2/documentation/api/latest/reference/resourcegroupstaggingapi/get-resources.html.  
 In addition, you'll find some print screens of the resources in the AWS Console.
 
-##Part1 - AWS Infrastructure as Code
+## Part1 - AWS Infrastructure as Code
 
 I chose to write with Terraform as an IaC engine, to
 create the below AWS components:  
